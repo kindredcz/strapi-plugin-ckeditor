@@ -153,6 +153,14 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
         '|',
         'sourceEditing',
     ],
+    htmlSupport: {
+      allow: [
+        {
+          name: 'iframe',
+          attributes: true
+        }
+      ]
+    },
     mediaEmbed: {
       previewsInData: true
     },
@@ -274,6 +282,14 @@ const CKEDITOR_BASE_CONFIG_FOR_PRESETS = {
         'sourceEditing',
       ],
       shouldNotGroupWhenFull: true
+    },
+    htmlSupport: {
+      allow: [
+        {
+          name: 'iframe',
+          attributes: true
+        }
+      ]
     },
     mediaEmbed: {
       previewsInData: true
